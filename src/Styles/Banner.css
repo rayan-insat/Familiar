@@ -1,0 +1,16 @@
+.Banner {
+	background-color: transparent;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: "Pacifico", cursive;
+	font-size: 32px;
+	color: antiquewhite;
+	height: 80px;
+}
+
+.clock {
+	position: relative;
+	left: -20px;
+}

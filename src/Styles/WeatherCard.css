@@ -1,0 +1,88 @@
+.WeatherCard {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	margin: 32px;
+	border-radius: 10px;
+	border: black solid 3px;
+	width: 540px;
+	font-family: "Nunito", sans-serif;
+	padding-left: 30px;
+	position: relative;
+}
+
+.Refresh-weather-info {
+	padding: 4px;
+	border-radius: 20px;
+	border: black solid 2px;
+	transition: ease-in all 0.4s;
+	font-size: 14px;
+	margin: 5px;
+	position: absolute;
+	right: 10px;
+}
+
+.Refresh-weather-info:hover {
+	background-color: black;
+	color: white;
+}
+
+.Info-temp {
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+.More-info {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.Icon-img {
+	margin: 10px;
+}
+
+.Weather-icon {
+	margin: 5px;
+	position: absolute;
+	right: 180px;
+	top: 10px;
+}
+
+.City-name {
+	padding: 5px;
+	position: relative;
+	right: 180px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.City-name-input {
+	height: 28px;
+	width: 120px;
+	font-size: 16px;
+	padding: 2px;
+	border: none;
+	margin: 2.5px;
+	border: black solid 2px;
+	border-radius: 2px;
+}
+
+.City-name-button {
+	height: 28px;
+	font-size: 16px;
+	width: 30px;
+	margin: 2.5px;
+	border: solid antiquewhite 2px;
+	border-radius: 6px;
+	transition: all 0.5s ease-in-out;
+	font-family: "Nunito", sans-serif;
+}
+
+.City-name-button:hover {
+	background-color: black;
+	color: antiquewhite;
+}

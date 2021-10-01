@@ -1,0 +1,33 @@
+.Fixture {
+	width: 100%;
+	position: relative;
+	top: -100px;
+	left: 40px;
+}
+
+.Fixture img {
+	width: 64px;
+	height: 64px;
+}
+
+.Matchday-box {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.Matchday-box h3 {
+	width: 180px;
+}
+
+.left {
+	text-align: right;
+	margin: 2px;
+}
+.right {
+	text-align: left;
+	margin: 2px;
+}
+.Fixture h2 {
+	text-align: center;
+}

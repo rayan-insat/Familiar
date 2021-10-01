@@ -1,0 +1,13 @@
+body {
+	background-image: url("../Assets/background.jpg");
+}
+
+html {
+	height: 100vh;
+}
+
+.App {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+}

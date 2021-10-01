@@ -1,0 +1,19 @@
+.Top {
+	position: relative;
+	left: -508px;
+	top: 80px;
+}
+ul {
+	list-style: none;
+	width: 300px;
+}
+.Top img {
+	width: 64px;
+	height: 64px;
+	border-radius: 5px;
+}
+li {
+	display: flex;
+	align-items: center;
+	margin: 2px;
+}

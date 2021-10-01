@@ -1,0 +1,70 @@
+.FootballCard {
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 15px;
+	margin: 32px;
+	margin-bottom: 0px;
+	border-radius: 10px;
+	border: black solid 3px;
+	width: 640px;
+	font-family: "Nunito", sans-serif;
+	position: relative;
+	top: -240px;
+	right: -600px;
+	height: 400px;
+}
+
+.Team-name {
+	padding: 5px;
+	position: relative;
+	right: 180px;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+}
+
+.Team-name-input {
+	height: 28px;
+	width: 200px;
+	font-size: 16px;
+	padding: 2px;
+	border: none;
+	margin: 2.5px;
+	border: black solid 2px;
+	border-radius: 2px;
+}
+
+.Team-name-button {
+	height: 28px;
+	font-size: 16px;
+	width: 30px;
+	margin: 2.5px;
+	border: solid black 2px;
+	border-radius: 6px;
+	transition: all 0.5s ease-in-out;
+	font-family: "Nunito", sans-serif;
+}
+
+.Team-name-button:hover {
+	background-color: black;
+	color: antiquewhite;
+}
+
+.FootballCard-logo {
+	position: absolute;
+	top: 13px;
+	left: 10px;
+}
+p {
+	position: absolute;
+}
+#a {
+	left: 103px;
+	top: 170px;
+}
+#b {
+	right: 145px;
+	top: 170px;
+}
